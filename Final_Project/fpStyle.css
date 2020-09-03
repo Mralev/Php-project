@@ -1,0 +1,150 @@
+body{
+	width:auto;
+	background-image: url("images/background.jpg");
+}
+/* HEADER----header has navbar built in */
+#header {
+	background-color: Black;
+	margin-top: 3%;
+}
+#header h1{
+	padding-top: 20px;
+	color: White;
+}
+
+#header ul{
+	background-color: white;	
+}
+
+#header ul li{
+	display: inline;
+	padding: 2px;
+	list-style-type: none;
+	border: solid #ff9900 2px;
+	border-top: none;
+	text-decoration: none;
+	
+}
+#header a{
+	font: 30px Black;
+	text-decoration: none;
+}
+#header a:hover{
+	background-color: #ff9900;
+}
+
+#header a:visited{
+	color: Black;
+}
+/* END HEADER */
+/* Container */
+#container{
+	margin:auto;
+	width: 90%;
+	background-color: black;
+	background-blend-mode: screen;
+	text-align: center;
+}
+
+/*Content will hold all information based text and images */
+#content{
+	margin: auto;
+	padding-bottom:2%;
+	width: 98%;
+	background-color: white;
+	text-align:center;
+}
+#content h2{
+	font-size: 35px;
+	text-decoration: underline;
+}
+#content h3{
+	font-size: 25px;
+}
+
+#content p{
+	margin-left: 4em;
+	margin-right: 4em;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+#content ol{
+	text-align:center;
+}
+#content ol li{
+	font-size: 20px;
+	margin-left: 20px;
+}
+#content table{
+	margin: 0 auto;
+}
+/* TEXTLINKS are at the bottom of the contrainer */
+#textlinks a{
+	font: 15px; 
+}
+
+#textlinks a:hover{
+	border:5px double #ff9900;
+}
+
+#textlinks a:visited{
+	color: #ff9900;
+}
+/* end textlinks */
+
+/*DISCOGRAPHY TABLE*/
+#vizaTable {
+	border-collapse: collapse;
+	width:80%;
+}
+#vizaTable td, #vizaTable th{
+	border:1px solid black;
+	padding:8px;
+}
+
+#vizaTable tr:nth-child(even){
+	background-color: #ff9900
+}
+
+#vizaTable tr:hover {
+	background-color: gray;
+}
+
+#vizaTable th {
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align: left;
+	background-color: black;
+	color:white;
+}
+/* end discography */
+/*FORM*/
+#form{
+	width: 80%;
+	text-align:left;
+	display: inline-block;
+}
+#form fieldset{
+	width:100%;
+	margin: 0 auto;
+}
+#form fieldset fieldset{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#form label{
+	font-size: 20px;
+}
+#form input, select{
+	background-color: #ff9900;
+}
+
+/*FOOTER*/
+#footer h4{
+	color: White;
+}
+#footer {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
